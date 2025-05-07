@@ -1,0 +1,7 @@
+This is a simple test file. 
+This file is created to test how many times a word appears in the file. 
+The word test appears multiple times in this file to help test the functionality of the program. 
+The more we repeat the word test, the better we can test the program's ability to count word occurrences. 
+Let's make sure that the word test appears enough times so that we can check if the word count works correctly. 
+Testing is important to ensure accuracy. 
+This is another test.
