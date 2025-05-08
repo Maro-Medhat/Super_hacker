@@ -11,18 +11,14 @@ for port in range(20, 101):
     s.settimeout(0.5) #  Make 0.5sec For Each Port Scan ... If No Response Will Ignore Current Port
     result = s.connect_ex((target, port)) # Try To Connect To Current Port
 
-
     if result == 0 :
         print(f"[+] Port {port} Open")
-
-
-
 
 '''
 =====================
 ||      Notes      ||
 =====================
 socket(AF_INET, SOCK_STREAM)
-    socket.AF_INET -> [Using IPv4]
-    socket.SOCK_STREAM -> [Using TCP]
+    AF_INET -> [Using IPv4]
+    SOCK_STREAM -> [Using TCP]
 '''
