@@ -1,0 +1,9 @@
+Here are some IP addresses:
+- Valid: 192.168.1.1
+- Also Valid: 8.8.8.8
+- Internal IP: 10.0.0.1
+
+Some garbage: 999.999.999.999,
+not-an-ip, 172.16.300.1
+Text continues here without IPs.
+And another IP: 127.0.0.1
